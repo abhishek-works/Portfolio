@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Chaudhary - Portfolio</title>
+    <link rel="stylesheet" href="abhi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Social Media Sidebar (Fixed) -->
+    <div class="social-sidebar">
+        <a href="https://www.linkedin.com/in/abhiiworkss?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-link" data-tooltip="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/abhishek-works" target="_blank" class="social-link" data-tooltip="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/iamabhiishhek" target="_blank" class="social-link" data-tooltip="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="mailto:abhi.overflow@gmail.com" class="social-link" data-tooltip="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <div class="social-line"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">AC</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="hero-title">
+                    <span class="title-line">Abhishek</span>
+                    <span class="title-line">Chaudhary</span>
+                </h1>
+                <p class="hero-subtitle">Full Stack Developer & Cybersecurity Enthusiast</p>
+                <p class="hero-description">
+                    Passionate about creating innovative web solutions and exploring the world of cybersecurity. 
+                    Building secure, scalable applications with modern technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-wrapper">
+                    <div class="code-snippet">
+                        <div class="code-header">
+                            <span class="dot dot-red"></span>
+                            <span class="dot dot-yellow"></span>
+                            <span class="dot dot-green"></span>
+                            <span class="code-title">developer.js</span>
+                        </div>
+                        <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">'Abhishek Chaudhary'</span>,
+  <span class="property">role</span>: <span class="string">'Full Stack Developer'</span>,
+  <span class="property">location</span>: <span class="string">'Delhi, NCR'</span>,
+  <span class="property">skills</span>: [<span class="string">'React'</span>, <span class="string">'Node.js'</span>, <span class="string">'MongoDB'</span>],
+  <span class="property">passion</span>: <span class="string">'Cybersecurity'</span>
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01.</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-lead">
+                        I'm a passionate Computer Science student specializing in full-stack development 
+                        and cybersecurity, currently pursuing B.Tech at KIET Group of Institution with a CGPA of 7.7.
+                    </p>
+                    <p>
+                        My journey in technology is driven by curiosity and a commitment to creating impactful solutions. 
+                        I've gained hands-on experience through internships and projects, working with modern web technologies 
+                        like React, MongoDB, Express, and exploring the fascinating world of cybersecurity.
+                    </p>
+                    <p>
+                        As a Cyber Warrior intern with Gurugram Police, I've worked on real-world cybercrime investigations, 
+                        threat detection, and digital forensics. Beyond academics, I'm actively involved in tech communities, 
+                        serving as Coordinator for CyberSecurity at Technocrats and contributing to various creative projects.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>B.Tech in Computer Science<br>KIET Group of Institution</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Delhi, NCR<br>India</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Focus Areas</h4>
+                                <p>Full Stack Development<br>Cybersecurity</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3 class="stat-number" data-target="15">0</h3>
+                        <p class="stat-label">Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3 class="stat-number" data-target="2">0</h3>
+                        <p class="stat-label">Certifications</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-coffee"></i>
+                        </div>
+                        <h3 class="stat-number" data-target="500">0</h3>
+                        <p class="stat-label">Cups of Coffee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02.</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-wrapper">
+                <!-- Languages -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-cuttlefish"></i>
+                            </div>
+                            <h4>C++</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>SQL</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frontend Technologies -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-palette"></i>
+                        <h3>Frontend Technologies</h3>
+                    </div>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4>HTML5</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="95"></div>
+                            </div>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h4>CSS3</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <h4>React</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-wind"></i>
+                            </div>
+                            <h4>Tailwind CSS</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend & Database -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend & Database</h3>
+                    </div>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-node"></i>
+                            </div>
+                            <h4>Express.js</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="82"></div>
+                            </div>
+                            <span class="skill-percentage">82%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h4>MongoDB</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="78"></div>
+                            </div>
+                            <span class="skill-percentage">78%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Others -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Specializations</h3>
+                    </div>
+                    <div class="skill-cards">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h4>VS Code</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="92"></div>
+                            </div>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>Cybersecurity</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <h4>Canva</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="88"></div>
+                            </div>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03.</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-number">01</div>
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/abhishek-works" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-date">
+                            <i class="fas fa-calendar"></i> August 2025
+                        </span>
+                        <h3 class="project-title">Digital Mental Health Support System</h3>
+                        <p class="project-description">
+                            Comprehensive mental health platform featuring responsive dashboards for students, mentors, and admins. 
+                            Includes an interactive AI Chatbot for real-time guidance, secure counselling booking portal with 
+                            authentication and form validation.
+                        </p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Responsive UI for multiple user roles</li>
+                            <li><i class="fas fa-check"></i> AI-powered mental health chatbot</li>
+                            <li><i class="fas fa-check"></i> Secure booking system</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="tag">React.js</span>
+                            <span class="tag">Tailwind CSS</span>
+                            <span class="tag">AI Chatbot</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-number">02</div>
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/abhishek-works" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-date">
+                            <i class="fas fa-calendar"></i> May 2025
+                        </span>
+                        <h3 class="project-title">AI-Based Student Dropout Prevention System</h3>
+                        <p class="project-description">
+                            Dynamic and responsive frontend platform designed to enhance student retention through data-driven insights. 
+                            Features interactive dashboards for dropout risk analysis, financial aid tracking, and parental engagement.
+                        </p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Dropout Risk Dashboard</li>
+                            <li><i class="fas fa-check"></i> Financial Aid Tracker</li>
+                            <li><i class="fas fa-check"></i> Performance Visualization</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="tag">React.js</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Data Viz</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-number">03</div>
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/abhishek-works" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-date">
+                            <i class="fas fa-calendar"></i> Coming Soon
+                        </span>
+                        <h3 class="project-title">More Projects Coming...</h3>
+                        <p class="project-description">
+                            Currently working on exciting new projects combining full-stack development with cutting-edge technologies. 
+                            Stay tuned for innovative solutions in web development and cybersecurity!
+                        </p>
+                        <ul class="project-features">
+                            <li><i class="fas fa-check"></i> Full MERN Stack Implementation</li>
+                            <li><i class="fas fa-check"></i> Advanced Security Features</li>
+                            <li><i class="fas fa-check"></i> Scalable Architecture</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="tag">MERN</span>
+                            <span class="tag">Innovation</span>
+                            <span class="tag">Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04.</span>
+                <h2 class="section-title">Experience & Achievements</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="experience-content">
+                <!-- Work Experience -->
+                <div class="experience-section">
+                    <h3 class="subsection-title">
+                        <i class="fas fa-briefcase"></i> Work Experience
+                    </h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-date">June 2025 - July 2025</div>
+                            <div class="timeline-content">
+                                <h3>Cyber Security Summer Intern</h3>
+                                <h4>Gurugram Police - Cyber Warrior</h4>
+                                <p class="location">
+                                    <i class="fas fa-map-marker-alt"></i> Gurugram, Haryana
+                                </p>
+                                <ul>
+                                    <li>Gained hands-on experience in real-world cybercrime investigation, incident response, and digital evidence handling</li>
+                                    <li>Worked on live cybersecurity projects involving threat detection and phishing case analysis</li>
+                                    <li>Performed digital forensics using industry-standard tools and methodologies</li>
+                                    <li>Collaborated with cybersecurity professionals on critical cases</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="certifications">
+                    <h3 class="subsection-title">
+                        <i class="fas fa-certificate"></i> Certifications
+                    </h3>
+                    <div class="cert-grid">
+                        <div class="cert-card">
+                            <div class="cert-badge">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <div class="cert-content">
+                                <h4>Cisco Certified Network Associate (CCNA)</h4>
+                                <p class="cert-issuer">Cisco</p>
+                                <span class="cert-tag">Networking</span>
+                            </div>
+                        </div>
+                        <div class="cert-card">
+                            <div class="cert-badge">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                            <div class="cert-content">
+                                <h4>Full Stack Development</h4>
+                                <p class="cert-issuer">MLSA (Microsoft Learn Student Ambassador)</p>
+                                <span class="cert-tag">Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Extracurricular Activities -->
+                <div class="extracurricular">
+                    <h3 class="subsection-title">
+                        <i class="fas fa-users"></i> Leadership & Activities
+                    </h3>
+                    <div class="extra-grid">
+                        <div class="extra-card">
+                            <div class="extra-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>Coordinator CyberSecurity</h4>
+                            <p>Technocrats</p>
+                        </div>
+                        <div class="extra-card">
+                            <div class="extra-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <h4>Cinematographer & Video Editor</h4>
+                            <p>Movie Society</p>
+                        </div>
+                        <div class="extra-card">
+                            <div class="extra-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <h4>TEDx Member</h4>
+                            <p>2023 - 2024</p>
+                        </div>
+                        <div class="extra-card">
+                            <div class="extra-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h4>Freelancer</h4>
+                            <p>Outlier</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05.</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-intro">
+                    <h3>Let's Build Something Amazing Together!</h3>
+                    <p>
+                        I'm currently seeking new opportunities and exciting projects. Whether you have a question, 
+                        want to collaborate, or just want to say hi, feel free to reach out. I'll do my best to get back to you!
+                    </p>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <a href="mailto:abhi.overflow@gmail.com">abhi.overflow@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Phone</h4>
+                                <a href="tel:+918235666933">+91 8235666933</a>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Location</h4>
+                                <p>Delhi, NCR, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-links">
+                        <h4>Connect With Me</h4>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/abhiiworkss?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-btn">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/abhishek-works" target="_blank" class="social-btn">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.instagram.com/iamabhiishhek" target="_blank" class="social-btn">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <a href="mailto:abhi.overflow@gmail.com" class="btn btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i> Send a Message
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2026 Abhishek Chaudhary. Designed & Built with <span class="heart">❤</span> and lots of ☕</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/abhiiworkss?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/abhishek-works" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/iamabhiishhek" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="abhi.js"></script>
+</body>
+</html>
